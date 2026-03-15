@@ -25,9 +25,9 @@ This project provides a **pre-patched `libcoldstart.so`** with the certificate v
 
 ## 🎥 Proof of Concept
 
-<img width="720" height="1640" alt="Facebook SSL Pinning Bypass PoC — HTTPS traffic captured via MITM proxy after patching libcoldstart.so" src="https://github.com/user-attachments/assets/a6413e59-0caf-40cc-ba6c-e0d9d66a2c36" />
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/2830a5ea-a609-4e76-a117-975c1b07bee6" />
 
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/1a30bf22-86b8-4e4b-9254-034178de654a)
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/05edde2e-ac22-4721-a2c4-42757527f6ec)
 
 ---
 
@@ -35,8 +35,8 @@ This project provides a **pre-patched `libcoldstart.so`** with the certificate v
 
 | App | Version | Patched Library | Architecture | Status |
 |-----|---------|-----------------|--------------|--------|
-| Facebook for Android | **551.1.0.58.63** | `libcoldstart.so` | `arm64-v8a` | ✅ Bypassed |
-| Facebook for Android | **551.1.0.58.63** | `libcoldstart.so` | `x86_64` | ✅ Bypassed |
+| Facebook for Android | **552.1.0.45.68** | `libcoldstart.so` | `arm64-v8a` | ✅ Bypassed |
+| Facebook for Android | **552.1.0.45.68** | `libcoldstart.so` | `x86_64` | ✅ Bypassed |
 
 > **Need a newer version?** Facebook updates frequently. For the **latest patched `libcoldstart.so`** compatible with the current Facebook version, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
