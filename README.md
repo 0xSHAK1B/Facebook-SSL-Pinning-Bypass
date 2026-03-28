@@ -25,10 +25,10 @@ This project provides a **pre-patched `libcoldstart.so`** with the certificate v
 
 ## 🎥 Proof of Concept
 
-<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/55c8b653-237a-4f7c-9827-287b4c993f53" />
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/ae5f598c-79a9-4131-bdab-e1553e9e8846" />
 
 
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/ed0d8e15-2b71-4ba4-936f-4ea3eaec00ed)
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/64cbf867-e992-44c6-843b-a7d7a427cc92)
 
 ---
 
@@ -36,8 +36,9 @@ This project provides a **pre-patched `libcoldstart.so`** with the certificate v
 
 | App | Version | Patched Library | Architecture | Status |
 |-----|---------|-----------------|--------------|--------|
-| Facebook for Android | **553.0.0.56.58** | `libcoldstart.so` | `arm64-v8a` | ✅ Bypassed |
-| Facebook for Android | **553.0.0.56.58** | `libcoldstart.so` | `x86_64` | ✅ Bypassed |
+| Facebook for Android | **544.0.0.42.272** | `libcoldstart.so` | `arm64-v8a` | ✅ Bypassed |
+| Facebook for Android | **544.0.0.42.272** | `libcoldstart.so` | `x86_64` | ✅ Bypassed |
+| Facebook for Android | **470.0.0.61.82** | `libcoldstart.so` | `arm64-v8a` | ✅ Bypassed (Demo — [available in Releases](../../releases)) |
 
 > **Need a newer version?** Facebook updates frequently. For the **latest patched `libcoldstart.so`** compatible with the current Facebook version, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
@@ -124,4 +125,4 @@ For the **most up-to-date** patched libraries, version-specific support, or cust
 
 ## 🏷️ Keywords
 
-`facebook ssl pinning bypass 2026` · `facebook certificate pinning bypass android` · `facebook mitm proxy 2026` · `facebook https traffic interception` · `facebook burp suite android` · `libcoldstart.so patch` · `facebook native ssl bypass` · `meta facebook security research` · `facebook api reverse engineering` · `android ssl pinning bypass no root` · `facebook fizz tls bypass` · `facebook proxy capture` · `facebook network traffic analysis` · `bypass ssl pinning android 2026` · `facebook pentesting android` · `mobile security research facebook` · `facebook certificate verification bypass` · `facebook arm64 binary patch`
+`facebook ssl pinning bypass 2026` · `facebook certificate pinning bypass android` · `facebook mitm proxy 2026` · `facebook https traffic interception` · `facebook burp suite android` · `libcoldstart.so patch` · `facebook native ssl bypass` · `meta facebook security research` · `facebook api reverse engineering` · `android ssl pinning bypass no root` · `facebook tls bypass` · `facebook proxy capture` · `facebook network traffic analysis` · `bypass ssl pinning android 2026` · `facebook pentesting android` · `mobile security research facebook` · `facebook certificate verification bypass` · `facebook arm64 binary patch`
