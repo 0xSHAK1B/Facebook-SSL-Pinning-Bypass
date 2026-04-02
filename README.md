@@ -15,11 +15,6 @@
 
 This project provides a **pre-patched `libcoldstart.so`** with the certificate verification logic disabled at the binary level, enabling security researchers, penetration testers, and developers to:
 
-- **Capture and inspect** all Facebook HTTPS requests and responses in real time
-- **Analyze API endpoints**, request parameters, headers, and authentication flows
-- **Audit data transmission** for privacy and security research
-- **Debug and test** integrations that interact with Facebook's mobile API
-
 
 ---
 
@@ -41,15 +36,6 @@ This project provides a **pre-patched `libcoldstart.so`** with the certificate v
 | Facebook for Android | **470.0.0.61.82** | `libcoldstart.so` | `arm64-v8a` | ✅ Bypassed (Demo — [available in Releases](../../releases)) |
 
 > **Need a newer version?** Facebook updates frequently. For the **latest patched `libcoldstart.so`** compatible with the current Facebook version, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
-
----
-
-## ⚙️ Supported Architectures
-
-| Architecture | Device Type | Support |
-|---|---|---|
-| `arm64-v8a` | Physical Android devices, ARM-based emulators | ✅ |
-| `x86_64` | PC-based Android emulators (Nox, LDPlayer, etc.) | ✅ |
 
 ---
 
