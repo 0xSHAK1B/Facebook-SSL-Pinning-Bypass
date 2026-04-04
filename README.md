@@ -20,20 +20,20 @@ This project provides a **pre-patched `libcoldstart.so`** with the certificate v
 
 ## 🎥 Proof of Concept
 
-<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/ae5f598c-79a9-4131-bdab-e1553e9e8846" />
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/687038b4-7fa2-4620-9331-ba9401415895" />
 
 
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/64cbf867-e992-44c6-843b-a7d7a427cc92)
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/1d873b39-b53d-45d1-9a6d-6e7899efdb08)
 
 ---
 
 ## 📋 Supported Facebook Version
 
-| App | Version | Patched Library | Architecture | Status |
-|-----|---------|-----------------|--------------|--------|
-| Facebook for Android | **544.0.0.42.272** | `libcoldstart.so` | `arm64-v8a` | ✅ Bypassed |
-| Facebook for Android | **544.0.0.42.272** | `libcoldstart.so` | `x86_64` | ✅ Bypassed |
-| Facebook for Android | **470.0.0.61.82** | `libcoldstart.so` | `arm64-v8a` | ✅ Bypassed (Demo — [available in Releases](../../releases)) |
+| App | Version | Architecture | Status |
+|-----|---------|--------------|--------|
+| Facebook for Android | **555.0.0.49.59** | `arm64-v8a` | ✅ Bypassed |
+| Facebook for Android | **555.0.0.49.59** | `x86_64` | ✅ Bypassed |
+| Facebook for Android | **470.0.0.61.82** | `arm64-v8a` | ✅ Bypassed (Demo — [available in Releases](../../releases)) |
 
 > **Need a newer version?** Facebook updates frequently. For the **latest patched `libcoldstart.so`** compatible with the current Facebook version, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
