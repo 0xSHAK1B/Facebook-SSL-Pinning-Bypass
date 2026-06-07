@@ -13,10 +13,10 @@
 
 ## Proof of Concept
 
-<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/abaa872b-c07a-4b1c-82b6-2d7be73446c1" />
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/51f92f8d-90cb-4c27-bb4c-761ad90daa30" />
 
 
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/e873c56f-82c4-43ce-b21a-c80e086a1e6f)
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/1f3ac3a8-3c6c-45f3-b587-87cf428eab05)
 
 ---
 
@@ -24,8 +24,8 @@
 
 | App | Version | Architecture | Status |
 |-----|---------|--------------|--------|
-| Facebook for Android | **561.0.0.42.67** | `arm64-v8a` | ✅ Bypassed — [contact on Telegram](https://t.me/MUH4MM4DSH4KIB) |
-| Facebook for Android | **561.0.0.42.67** | `x86_64` | ✅ Bypassed — [contact on Telegram](https://t.me/MUH4MM4DSH4KIB) |
+| Facebook for Android | **563.1.0.50.73** | `arm64-v8a` | ✅ Bypassed — [contact on Telegram](https://t.me/MUH4MM4DSH4KIB) |
+| Facebook for Android | **563.1.0.50.73** | `x86_64` | ✅ Bypassed — [contact on Telegram](https://t.me/MUH4MM4DSH4KIB) |
 | Facebook for Android | **470.0.0.61.82** | `arm64-v8a` | ✅ Bypassed (Demo — [available in Releases](../../releases)) |
 
 > **Want the latest version (558.0.0.70.72)?** For the **latest patched APK**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB). The demo APK (v470.0.0.61.82) is available in [Releases](../../releases) to test the bypass.
