@@ -4,7 +4,6 @@
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![ARM64](https://img.shields.io/badge/ARM64--v8a-Supported-blue?style=for-the-badge)
 ![x86_64](https://img.shields.io/badge/x86__64-Supported-blue?style=for-the-badge)
-![Last Updated](https://img.shields.io/badge/Updated-May_2026-brightgreen?style=for-the-badge)
 
 > **Bypass Facebook's SSL/TLS certificate pinning on Android** to intercept, capture, and analyze HTTPS network traffic using proxy tools like Burp Suite, mitmproxy, Reqable, or Proxypin — works on both **rooted** and **non-rooted** devices. Working as of **2026**.
 
@@ -13,10 +12,7 @@
 
 ## Proof of Concept
 
-<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/51f92f8d-90cb-4c27-bb4c-761ad90daa30" />
-
-
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/1f3ac3a8-3c6c-45f3-b587-87cf428eab05)
+<img width="1324" height="855" alt="Image" src="https://github.com/user-attachments/assets/4e485bcc-5823-4a4c-8ec4-6da01787af61" />
 
 ---
 
@@ -24,11 +20,11 @@
 
 | App | Version | Architecture | Status |
 |-----|---------|--------------|--------|
-| Facebook for Android | **563.1.0.50.73** | `arm64-v8a` | ✅ Bypassed — [contact on Telegram](https://t.me/MUH4MM4DSH4KIB) |
-| Facebook for Android | **563.1.0.50.73** | `x86_64` | ✅ Bypassed — [contact on Telegram](https://t.me/MUH4MM4DSH4KIB) |
+| Facebook for Android | **565.0.0.49.74** | `arm64-v8a` | ✅ Bypassed — [contact on Telegram](https://t.me/MUH4MM4DSH4KIB) |
+| Facebook for Android | **565.0.0.49.74** | `x86_64` | ✅ Bypassed — [contact on Telegram](https://t.me/MUH4MM4DSH4KIB) |
 | Facebook for Android | **470.0.0.61.82** | `arm64-v8a` | ✅ Bypassed (Demo — [available in Releases](../../releases)) |
 
-> **Want the latest version (558.0.0.70.72)?** For the **latest patched APK**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB). The demo APK (v470.0.0.61.82) is available in [Releases](../../releases) to test the bypass.
+> **Want the latest version (565.0.0.49.74)?** For the **latest patched APK**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB). The demo APK (v470.0.0.61.82) is available in [Releases](../../releases) to test the bypass.
 
 ---
 
