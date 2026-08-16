@@ -1,113 +1,128 @@
-# Facebook SSL Pinning Bypass 2026 – Intercept HTTPS Traffic on Android (Root & No Root)
+<div align="center">
 
-[![Telegram](https://img.shields.io/badge/💬_Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=121212&color=26A5E4&logoWidth=20)](https://t.me/MUH4MM4DSH4KIB)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![ARM64](https://img.shields.io/badge/ARM64--v8a-Supported-blue?style=for-the-badge)
-![x86_64](https://img.shields.io/badge/x86__64-Supported-blue?style=for-the-badge)
+# 🔓 Facebook Android SSL Pinning Bypass
 
-> **Bypass Facebook's SSL/TLS certificate pinning on Android** to intercept, capture, and analyze HTTPS network traffic using proxy tools like Burp Suite, mitmproxy, Reqable, or Proxypin — works on both **rooted** and **non-rooted** devices. Working as of **2026**.
+**Intercept, capture & analyze Facebook HTTPS traffic on Android — no root required**
 
+[![Download APK](https://img.shields.io/badge/⬇_Download_APK_(v574.0.0)-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](../../releases/latest) &nbsp; [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MUH4MM4DSH4KIB)
 
----
+![Android](https://img.shields.io/badge/Android_10--14+-3DDC84?style=flat-square&logo=android&logoColor=white)
+![ARM64](https://img.shields.io/badge/arm64--v8a-blue?style=flat-square)
+![Version](https://img.shields.io/badge/Facebook-v574.0.0.40.71-1877F2?style=flat-square&logo=facebook&logoColor=white)
+![Root](https://img.shields.io/badge/Root-Not_Required-brightgreen?style=flat-square)
 
-## Proof of Concept
+<img width="578" height="1280" alt="Facebook Android SSL Pinning Bypass PoC – Traffic Captured" src="https://github.com/user-attachments/assets/eb0ae045-d88a-4872-b0db-d528e8f0dfda" />
 
-<img width="1080" height="2392" alt="Image" src="https://github.com/user-attachments/assets/0bdda754-3e38-4812-9ed8-99f3156b7399" />
+*Live capture — Facebook Android HTTPS traffic intercepted in cleartext, v574.0.0.40.71.*
 
+</div>
 
-📸 [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/e0c4d425-749b-42ab-854c-bec59dd200df)
-
----
-
-## Supported Facebook Version
-
-| App | Version | Architecture | Status |
-|-----|---------|--------------|--------|
-| Facebook for Android | **572.0.0.38.71** | `arm64-v8a` | ✅ Bypassed — [contact on Telegram](https://t.me/MUH4MM4DSH4KIB) |
-| Facebook for Android | **572.0.0.38.71** | `x86_64` | ✅ Bypassed — [contact on Telegram](https://t.me/MUH4MM4DSH4KIB) |
-| Facebook for Android | **470.0.0.61.82** | `arm64-v8a` | ✅ Bypassed (Demo — [available in Releases](../../releases)) |
-
-> **Want the latest version (572.0.0.38.71)?** For the **latest patched APK**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB). The demo APK (v470.0.0.61.82) is available in [Releases](../../releases) to test the bypass.
+> **Bypass SSL/TLS certificate pinning** in Facebook for Android and pipe the full HTTPS stream — login, GraphQL, and Messenger flows — into **Burp Suite · mitmproxy · Reqable · Proxypin.** Tap a section below to expand.
 
 ---
 
-## Requirements
+<details open>
+<summary><b>📦 Supported version</b></summary>
 
-### Option A: Physical Android Device (No Root Required)
+<br>
 
-- Android phone or tablet running **Android 7.0+**
-- MITM proxy tool installed on the same device or on your local network:
-  - [**Reqable**](https://reqable.com) — modern UI, excellent mobile support
-  - [**Proxypin**](https://proxypin.com) — free, lightweight, no-root option
+| App | Package | Version | ABI | Status |
+|-----|---------|:-------:|:---:|:------:|
+| Facebook for Android | `com.facebook.katana` | **574.0.0.40.71** | `arm64-v8a` | ✅ [**Download**](../../releases/latest) |
 
-### Option B: Android Emulator on PC
+The patched APK lives in the [**Releases**](../../releases/latest) section. Need the newest build or another version? [Message me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
-- Windows, macOS, or Linux PC with an Android emulator:
-  - [**Nox Player**](https://www.bignox.com/) — popular Android emulator with root toggle
-  - [**LDPlayer**](https://www.ldplayer.net/) — fast Android emulator optimized for performance
-- Desktop MITM proxy tool:
-  - [**Burp Suite**](https://portswigger.net/burp) — industry-standard web security testing proxy
-  - [**mitmproxy**](https://mitmproxy.org/) — open-source, scriptable HTTPS proxy
-  - [**Reqable**](https://reqable.com) — cross-platform HTTP debugging proxy
-  - [**Proxypin**](https://proxypin.com) — lightweight proxy with mobile support
+</details>
+
+<details>
+<summary><b>🎯 What you can capture</b></summary>
+
+<br>
+
+- **Login & authentication** — `b-graph.facebook.com` / `b-api.facebook.com` auth, access tokens, 2FA
+- **GraphQL** — `/graphql` doc-id queries powering feed, profile, groups, and Marketplace
+- **Messaging** — Messenger sync, MQTT realtime, thread and message endpoints
+- **Feed & Reels** — ranking requests and story/reel media URLs
+- **Media & CDN** — photo/video delivery and the upload pipeline
+- **Ads, Pixel & telemetry** — ad payloads and analytics/tracking beacons
+
+</details>
+
+<details>
+<summary><b>⚙️ Requirements</b></summary>
+
+<br>
+
+**Android device — Android 10, 11, 12, 13, 14+.** No root required (rooted devices supported too); ARM device (`arm64-v8a`), which covers virtually all modern phones and tablets.
+
+**Emulator (PC):** Nox / LDPlayer / MEmu / BlueStacks — enable **ARM translation**, since this build ships `arm64` native libraries and x86/x86_64 emulators need the translation layer.
+
+**Proxy tool** — [Burp Suite](https://portswigger.net/burp) · [mitmproxy](https://mitmproxy.org/) · [Reqable](https://reqable.com) · [Proxypin](https://proxypin.com)
+
+</details>
+
+<details>
+<summary><b>🚀 How to bypass — step by step</b></summary>
+
+<br>
+
+1. Uninstall the official Facebook app (signatures conflict).
+2. Download the patched APK from [**Releases**](../../releases/latest) and install it on your device or emulator.
+3. Install and trust your proxy's CA certificate: **Settings → Security → Encryption & credentials → Install a certificate → CA certificate**.
+4. Set the Wi-Fi proxy: **Settings → Wi-Fi → (network) → Proxy → Manual** → your PC's IP and port.
+5. Launch Facebook — decrypted HTTPS streams into your proxy in real time.
+
+> Force-stop and relaunch the app if traffic doesn't appear immediately.
+
+</details>
+
+<details>
+<summary><b>💼 Need a custom bypass?</b></summary>
+
+<br>
+
+Custom SSL pinning bypass · automated patching scripts · full reverse-engineering projects — for any Android or iOS app. [**Message me on Telegram →**](https://t.me/MUH4MM4DSH4KIB)
+
+</details>
+
+<details>
+<summary><b>⚠️ Disclaimer</b></summary>
+
+<br>
+
+For **educational and security-research purposes only**. Not affiliated with, endorsed by, or connected to Meta, Facebook, or their subsidiaries. All trademarks belong to their respective owners. You are responsible for complying with your local laws and the app's Terms of Service, and should only analyze traffic on accounts and devices you own or are authorized to test. Provided "as is", without warranty of any kind.
+
+</details>
+
+<details>
+<summary><b>🔗 Related projects</b></summary>
+
+<br>
+
+| App | Platform | Repository |
+|-----|----------|------------|
+| Facebook | iOS | [Facebook iOS SSL Pinning Bypass](https://github.com/0xSHAK1B/Facebook-iOS-SSL-Pinning-Bypass) |
+| Instagram | Android | [Instagram SSL Pinning Bypass](https://github.com/0xSHAK1B/Instagram-SSL-Pinning-Bypass) |
+| Threads | Android | [Threads SSL Pinning Bypass](https://github.com/0xSHAK1B/Threads-SSL-Pinning-Bypass) |
+| Meta Business Suite | Android | [Meta Business Suite SSL Pinning Bypass](https://github.com/0xSHAK1B/Meta-Business-Suite-SSL-Pinning-Bypass) |
+| Messenger | Android | [Messenger SSL Pinning Bypass](https://github.com/0xSHAK1B/Messenger-SSL-Pinning-Bypass) |
+| TikTok | Android | [TikTok SSL Pinning Bypass](https://github.com/0xSHAK1B/TIKTOK-SSL-Pinning-Bypass) |
+
+</details>
 
 ---
 
-## How to Bypass Facebook SSL Pinning (Step-by-Step)
+<div align="center">
 
-### Step 1: Download the Patched APK
+### 💖 Support This Project
 
-Download the **demo APK** (v470.0.0.61.82) from this repository's [Releases](../../releases) section to test the bypass. For the **latest patched APK** (v558.0.0.70.72), [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
+Please **⭐ star the repo** — it helps others find it and keeps the builds coming.
 
-Choose the correct architecture for your device:
-- **`arm64-v8a`** — Most modern Android phones and tablets
-- **`x86_64`** — Android emulators (Nox Player, LDPlayer, etc.)
+| Currency | Address |
+|:---------|:--------|
+| **BTC / ETH** | `0xea9a566a5123c3a1b8d60f8bdd845835716668f0` |
+| **USDT (TRC-20)** | `THssAZhUQEEsw15211rAaRLGRjSWXMX4PW` |
 
-### Step 2: Install the Patched Facebook APK
+[![Telegram](https://img.shields.io/badge/@MUH4MM4DSH4KIB-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MUH4MM4DSH4KIB)
 
-- **Uninstall** the official Facebook app if already installed (signatures will conflict)
-- **Enable** "Install from Unknown Sources" in your Android settings
-- **Install** the downloaded patched APK
-
-### Step 3: Configure Your MITM Proxy
-
-1. Open your proxy tool (Burp Suite, mitmproxy, Reqable, or Proxypin)
-2. **Export** the proxy's CA certificate
-3. **Install and trust** the CA certificate on your Android device:
-   - Go to **Settings → Security → Install certificates from storage**
-   - On Android 11+, you may need to move the cert to the system trust store (root required) or use your proxy tool's built-in certificate installer
-4. **Configure** your device's Wi-Fi proxy settings to point to the proxy
-
-### Step 4: Capture Facebook HTTPS Traffic
-
-1. Launch the patched **Facebook** app
-2. Browse your feed, open Marketplace, send messages, or interact normally
-3. Watch **decrypted HTTPS requests and responses** appear in your proxy tool in real time
-
-> **Tip:** Make sure to install and trust the proxy's CA certificate on your device for full HTTPS decryption.
-
----
-
-
-## Related Projects
-
-- [**Instagram SSL Pinning Bypass**](https://github.com/0xSHAK1B) — Intercept Instagram HTTPS traffic on Android
-- [**Threads SSL Pinning Bypass**](https://github.com/0xSHAK1B) — Capture Threads API requests and responses
-- [**Messenger SSL Pinning Bypass**](https://github.com/0xSHAK1B) — Bypass Messenger certificate pinning
-- [**TikTok SSL Pinning Bypass**](https://github.com/0xSHAK1B) — Bypass TikTok BoringSSL certificate pinning
-- [**Snapchat SSL Pinning Bypass**](https://github.com/0xSHAK1B) — Decrypt Snapchat HTTPS traffic on Android
-
----
-
-## Contact & Latest Builds
-
-For the **most up-to-date** SSL pinning bypassed Facebook APK and support:
-
-[![Telegram](https://img.shields.io/badge/💬_Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=121212&color=26A5E4&logoWidth=20)](https://t.me/MUH4MM4DSH4KIB)
-
----
-
-
-## Tags
-
-`facebook ssl pinning bypass` · `facebook ssl pinning bypass 2026` · `facebook certificate pinning bypass android` · `facebook mitm proxy` · `facebook https traffic interception` · `facebook burp suite android` · `facebook https decrypt` · `facebook proxy no root` · `meta facebook security research` · `facebook api reverse engineering` · `facebook ssl bypass no root` · `facebook frida bypass` · `facebook network traffic capture` · `facebook ssl unpinning` · `bypass ssl pinning facebook android` · `facebook apk ssl bypass` · `facebook mitmproxy` · `facebook reqable proxy` · `libcoldstart.so patch` · `meta fizz tls bypass` · `facebook penetration testing` · `android ssl pinning bypass 2026` · `intercept facebook traffic` · `facebook security audit` · `facebook certificate bypass arm64` · `facebook https interception android` · `facebook graphql api intercept` · `facebook marketplace api` · `facebook native binary patch`
+</div>
