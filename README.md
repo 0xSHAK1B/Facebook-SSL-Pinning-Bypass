@@ -120,7 +120,8 @@ Please **⭐ star the repo** — it helps others find it and keeps the builds co
 
 | Currency | Address |
 |:---------|:--------|
-| **BTC / ETH** | `0xea9a566a5123c3a1b8d60f8bdd845835716668f0` |
+| **BTC** | `131NaAJooX2XYq5QUFmKsTuLQXcGNayYPJ` |
+| **ETH** | `0xea9a566a5123c3a1b8d60f8bdd845835716668f0` |
 | **USDT (TRC-20)** | `THssAZhUQEEsw15211rAaRLGRjSWXMX4PW` |
 
 [![Telegram](https://img.shields.io/badge/@MUH4MM4DSH4KIB-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MUH4MM4DSH4KIB)
