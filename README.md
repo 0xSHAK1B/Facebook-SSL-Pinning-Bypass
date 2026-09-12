@@ -4,16 +4,16 @@
 
 **Intercept, capture & analyze Facebook HTTPS traffic on Android — no root required**
 
-[![Download APK](https://img.shields.io/badge/⬇_Download_APK_(v574.0.0)-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](../../releases/latest) &nbsp; [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MUH4MM4DSH4KIB)
+[![Download APK](https://img.shields.io/badge/⬇_Download_APK_(v577.0.0.50.72)-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](../../releases/latest) &nbsp; [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MUH4MM4DSH4KIB)
 
 ![Android](https://img.shields.io/badge/Android_10--14+-3DDC84?style=flat-square&logo=android&logoColor=white)
 ![ARM64](https://img.shields.io/badge/arm64--v8a-blue?style=flat-square)
-![Version](https://img.shields.io/badge/Facebook-v574.0.0.40.71-1877F2?style=flat-square&logo=facebook&logoColor=white)
+![Version](https://img.shields.io/badge/Facebook-v577.0.0.50.72-1877F2?style=flat-square&logo=facebook&logoColor=white)
 ![Root](https://img.shields.io/badge/Root-Not_Required-brightgreen?style=flat-square)
 
-<img width="578" height="1280" alt="Facebook Android SSL Pinning Bypass PoC – Traffic Captured" src="https://github.com/user-attachments/assets/eb0ae045-d88a-4872-b0db-d528e8f0dfda" />
+<img width="578" height="1280" alt="Image" src="https://github.com/user-attachments/assets/a5695e15-7a2a-4e68-a6bf-6224c9764236" />
 
-*Live capture — Facebook Android HTTPS traffic intercepted in cleartext, v574.0.0.40.71.*
+*Live capture — Facebook Android HTTPS traffic intercepted in cleartext, v577.0.0.50.72.*
 
 </div>
 
@@ -28,7 +28,7 @@
 
 | App | Package | Version | ABI | Status |
 |-----|---------|:-------:|:---:|:------:|
-| Facebook for Android | `com.facebook.katana` | **574.0.0.40.71** | `arm64-v8a` | ✅ [**Download**](../../releases/latest) |
+| Facebook for Android | `com.facebook.katana` | **577.0.0.50.72** | `arm64-v8a` | ✅ [**Download**](../../releases/latest) |
 
 The patched APK lives in the [**Releases**](../../releases/latest) section. Need the newest build or another version? [Message me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
